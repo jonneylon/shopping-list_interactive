@@ -1,0 +1,112 @@
+body{
+	background: url('http://www.westendmeats.com/butchers/images/galleryimages/aa9H4bYPNkiVFaif.jpg');
+	font-family: helvetica;
+}
+
+/*//////////// MAIN ELEMENT STYLES /////////////*/
+
+.header {
+    display: block;
+    width: 500px;
+	margin: 5rem auto;
+	background: rgba(255, 255, 255, 0.6);
+	padding: 2.3rem 1rem;
+	-moz-box-shadow: 0 1px 6px rgba(80, 80, 80, .6);
+	-webkit-box-shadow: 0 1px 6px rgba(80, 80, 80, .6);
+	box-shadow: 0 1px 6px rgba(80, 80, 80, .6);  
+}
+
+.list-body{
+	background: rgba(255, 255, 255, 0.6);
+	width: 500px;
+	min-height: 300px;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+/*////////// Input / Add Button Styling //////////////*/
+
+
+#textBox{
+    border: 3px solid white; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    background: rgba(255,255,255,0.5);
+    padding: 5px;
+    margin-left: 10.5rem;
+    font-size: 18px
+}
+
+
+
+#add-button{
+	min-width: 37px;
+}
+
+#clear-button{
+	min-width: 65px;
+}
+
+#add-button,
+#clear-button{
+	font-size: .9em;
+	text-align: center;
+	background-color: #FFF;
+	outline: none;
+	display: inline-block;
+	min-height: 37px;
+} 
+
+
+/*///////////List Styling////////////////*/
+
+
+ul{
+list-style-type: none;
+}
+
+
+#listItems li {
+	text-align: center;
+	margin-bottom: 13px;
+	height: 45px;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: #fff;
+	font-size: 1.7em;
+}
+
+.fa-check,
+.fa-trash {
+	width: 50px;
+	color: #FFF;
+	height: 50px;
+}
+
+.fa-check {
+	float: left;
+	background-color: #31B573;
+}
+
+.fa-trash {
+	float: right;
+	background-color: red;
+}
+
+.fa-check:hover,
+.fa-trash:hover {
+	color: #696969;
+}
+
+.done {
+	opacity: 0.5;	
+}
+
